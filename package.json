@@ -1,0 +1,29 @@
+{
+  "name": "fortify-deob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cocos Creator / 微信小游戏 code.fortify level-3 混淆产物通用反编译工具",
+  "bin": {
+    "fortify-deob": "src/cli.js"
+  },
+  "scripts": {
+    "deob": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "cocos-creator",
+    "wechat-minigame",
+    "deobfuscation",
+    "code.fortify",
+    "reverse-engineering"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/generator": "^7.29.8",
+    "@babel/parser": "^7.29.9",
+    "@babel/traverse": "^7.29.10",
+    "@babel/types": "^7.29.8"
+  }
+}
